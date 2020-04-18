@@ -1,0 +1,22 @@
+{
+  "name": "@timmymorr/token-validator",
+  "version": "1.0.0",
+  "description": "JWT validator module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timmymorr/token-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timmymorr/token-validator/issues"
+  },
+  "homepage": "https://github.com/timmymorr/token-validator#readme",
+  "dependencies": {
+    "jsonwebtoken": "8.5.1"
+  }
+}
