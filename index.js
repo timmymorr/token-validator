@@ -20,7 +20,10 @@ module.exports = {
         next();
       } catch (err) {
         // Throw an error just in case anything goes wrong with verification
-        throw new Error(err);
+        result = { 
+          error: err,
+          status: 401
+        };
       }
     } else {
       result = { 
