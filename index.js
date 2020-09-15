@@ -24,6 +24,7 @@ module.exports = {
           error: err,
           status: 401
         };
+        res.status(401).send(result);
       }
     } else {
       result = { 
